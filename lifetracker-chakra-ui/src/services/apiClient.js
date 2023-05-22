@@ -3,7 +3,7 @@ import axios from "axios"
 class ApiClient {
   constructor(remoteHostUrl) {
     this.token = null
-    this.remoteHostUrl = remoteHostUrl || "http://localhost:3001"
+    this.remoteHostUrl = "https://server-production-196f.up.railway.app"
   }
 
   setToken(token) {
