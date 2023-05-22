@@ -1,0 +1,8 @@
+version: 2
+environments:
+  production:
+    commands:
+      - npm install
+      - npm run build
+    ports:
+      - 8080
