@@ -1,6 +1,6 @@
-# Lifetracker Express API
+# LifeTracker Express API
 
-This repo holds the backend code for the Lifetracker Express API
+This repo holds the backend code for the LifeTracker Express API
 
 ## Dev Setup
 
@@ -21,7 +21,7 @@ DATABASE_NAME=lifetracker
 DATABASE_TEST_NAME=lifetracker_test
 ```
 
-These should be updated with values needed for your postgres connection string.
+These should be updated with values needed for your PostgreSQL connection string.
 
 Then setup the database by running `psql -f lifetracker.sql`.
 
