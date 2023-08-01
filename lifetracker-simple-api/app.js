@@ -25,6 +25,9 @@ const app = express()
 app.use(
   cors({
     origin: 'https://lifetracker.up.railway.app',
+    methods: ['GET', 'POST', 'PUT', 'DELETE'],
+    allowedHeaders: ['Content-Type', 'Authorization'],
+    credentials: true,
   })
 )
 
