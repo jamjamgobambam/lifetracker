@@ -31,6 +31,8 @@ app.use(
   })
 )
 
+app.options('*', cors()) // include before other routes
+
 // parse incoming requests with JSON payloads
 app.use(express.json())
 // log requests info
